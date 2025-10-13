@@ -60,7 +60,7 @@ Expo CLI
 Cuenta en Expo
 
 Comandos útiles:
-bash
+
 # Instalar dependencias
 npm install
 
@@ -75,7 +75,6 @@ npx expo publish
 📦 Build y Distribución
 La app está configurada con EAS Build para generar APKs optimizados:
 
-bash
 # Crear build de preview
 npx eas build -p android --profile preview
 
