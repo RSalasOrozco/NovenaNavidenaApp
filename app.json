@@ -1,29 +1,38 @@
 {
   "expo": {
-    "name": "NovenaNavidena",
-    "slug": "NovenaNavidena",
+    "name": "Novena Navideña",
+    "slug": "novena-navidenya",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ff6b6b"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tunombre.novenanavidenya"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ff6b6b"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.tunombre.novenanavidenya"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "App para seguir la Novena de Aguinaldos y escuchar villancicos navideños",
+    "extra": {
+      "eas": {
+        "projectId": "391fb4ed-497d-4fe5-b20e-4ab2023f54c9"
+      }
     }
   }
 }
